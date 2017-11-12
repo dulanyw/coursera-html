@@ -1,115 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
 h1{
 	text-align:center;
 }
+
 @media (min-width: 992px){
-p .block1{
-	border:1px;
-	border-color:black;
-	background-color:grey;
-	width:30%;
-	position:relative top left;
-	float:right;
+	div {
+	position:relative;
+	}
+	
+	.block1{
+		border:1px solid black;
+		background-color:grey;
+		width:29%;
+		margin-right:3%;
+		margin-left:3%;
+		float:left;
+	}
+
+	.block2{
+		border:1px solid black;
+		background-color:grey;
+		width:30%;
+		margin-right:3%;
+		float:left;
+	}
+	
+	.block3{
+		border:1px solid black;
+		background-color:grey;
+		width:29%;
+		margin-right:3%;
+		float:left;
+	}
+	
+	.text{
+		padding:30px 10px 10px 10px;
+	}
+
+ .Peter{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		padding:3px;
+		background-color:orange;
+		text-align:center;
+		position:absolute;
+		top:0px;
+		right:0px;
+		width:130px;
+	}
+
+	.Pantera{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		background-color:yellow;
+		text-align:center;
+		width:110px;
+		padding:3px;
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+	
+	.Tool{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		background-color:purple;
+		color:white;
+		text-align:center;
+		width:70px;
+		padding:3px;
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+
 }
 
-p .block2{
-	border:1px;
-	border-color:black;
-	background-color:grey;
-	width:30%;
-	position:relative top left;
-	float:right;
-}
-
-div .Peter{
-	border:1px;
-	border-color:black;
-	background-color:orange;
-	position:relative top right;
-}
-
-div .Pantera{
-	border:1px;
-	border-color:black;
-	background-color:yellow;
-	position:relative top right;
-}
-
-div .Tool{
-	border:1px;
-	border-color:black;
-	background-color:purple;
-	text-decoration-color:white;
-	position:relative top right;
-}
-
-}
 @media (min-width: 768px) and (max-width: 991px){
-p .block1{
-	border:1px;
-	border-color:black;
-	background-color:grey;
-	width:40%;
-}
+div {
+	position:relative;
+	}
+	
+	.block1{
+		border:1px solid black;
+		background-color:grey;
+		width:44%;
+		margin-right:2%;
+		margin-left:4%;
+		float:left;
+	}
 
-p .block2{
-	border:1px;
-	border-color:black;
-	background-color:grey;
-	width:90%;
-}
+	.block2{
+		border:1px solid black;
+		background-color:grey;
+		width:44%;
+		margin-right:4%;
+		margin-left:2%;
+		float:left;
+	}
+	
+	.block3{
+		border:1px solid black;
+		background-color:grey;
+		width:92%;
+		margin-top:4%;
+	  margin-left:4%;
+		float:left;
+	}
+	
+	.text{
+		padding:30px 10px 10px 10px;
+	}
 
-div .Peter{
-	border:1px;
-	border-color:black;
-	background-color:orange;
-}
+ .Peter{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		padding:3px;
+		background-color:orange;
+		text-align:center;
+		position:absolute;
+		top:0px;
+		right:0px;
+		width:130px;
+	}
 
-div .Pantera{
-	border:1px;
-	border-color:black;
-	background-color:yellow;
+	.Pantera{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		background-color:yellow;
+		text-align:center;
+		width:110px;
+		padding:3px;
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+	
+	.Tool{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		background-color:purple;
+		color:white;
+		text-align:center;
+		width:70px;
+		padding:3px;
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
 }
+@media (max-width:767px){
+div {
+	position:relative;
+	}
+	
+	.block1{
+		border:1px solid black;
+		background-color:grey;
+		width:86%;
+		margin-right:7%;
+		margin-left:7%;
+		float:left;
+	}
 
-div .Tool{
-	border:1px;
-	border-color:black;
-	background-color:purple;
-	text-decoration-color:white;
-}
+	.block2{
+		border:1px solid black;
+		background-color:grey;
+		width:86%;
+		margin-right:7%;
+		margin-left:7%;
+		margin-top:20px;
+		float:left;
+	}
+	
+	.block3{
+		border:1px solid black;
+		background-color:grey;
+		width:86%;
+		margin-right:7%;
+		margin-left:7%;
+		margin-top:20px;
+		float:left;
+	}
+	
+	.text{
+		padding:30px 10px 10px 10px;
+	}
 
-}
-@media (max-width:767 px){
-p .block1{
-	border:1px;
-	border-color:black;
-	background-color:grey;
-	width:80%;
-}
+ .Peter{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		padding:3px;
+		background-color:orange;
+		text-align:center;
+		position:absolute;
+		top:0px;
+		right:0px;
+		width:130px;
+	}
 
-p .block2{
-	border:1px;
-	border-color:black;
-	background-color:grey;
-	width:80%;
-}
-
-div .Peter{
-	border:1px;
-	border-color:black;
-	background-color:orange;
-}
-
-div .Pantera{
-	border:1px;
-	border-color:black;
-	background-color:yellow;
-}
-
-div .Tool{
-	border:1px;
-	border-color:black;
-	background-color:purple;
-	text-decoration-color:white;
-}
+	.Pantera{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		background-color:yellow;
+		text-align:center;
+		width:110px;
+		padding:3px;
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+	
+	.Tool{
+		border-left:1px solid black;
+		border-bottom:1px solid black;
+		background-color:purple;
+		color:white;
+		text-align:center;
+		width:70px;
+		padding:3px;
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
 
 }
